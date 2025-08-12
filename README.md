@@ -1,3 +1,21 @@
+Please refer to the original repo for installation of void-generator. For creating void-file for [METRIN-KG](https://github.com/earth-metabolome-initiative/metrin-kg), run the folllowing command
+
+```bash
+java -jar target/void-generator*-uber.jar -r "https://qlever.earthmetabolome.org/api/metrin-kg" --void-file void-metrin-kg.ttl --iri-of-void https://qlever.earthmetabolome.org/api/metrin-kg/.well-known/void# --max-concurrency 1 -f --optimize-for Qlever
+```
+
+
+
+
+
+
+
+-------------------------------------------------------------------------
+
+
+
+
+
 # A Detailed Statistics generator for a VoID file
 
 This CLI tool will automatically generates [VoID description](https://www.w3.org/TR/void/) as RDF for a public endpoint given its URL.
